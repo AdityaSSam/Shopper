@@ -141,9 +141,9 @@ main {
 }
 
 main .women, .men, .kids {
-    width: 430px;
-    height: 500px;
-    margin: 0px 5px;
+    width: 380px;
+    height: 400px;
+    margin: 10px 5px;
     cursor: pointer;
     transition: 0.2s;
     box-shadow: 0px 0px 1px black;
@@ -312,12 +312,14 @@ hr {
 .catlog-line-one {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 30px;
+    padding: 20px 50px;
     align-items: center;
+    border: 1px solid black;
 }
 
 .card {
-    width: 240px;
+    width: 200px;
+    /* height: 300px; */
     cursor: pointer;
     transition: 0.3s;
     margin: 20px 40px;
@@ -335,9 +337,9 @@ hr {
 }
 
 .card img {
-    width: 150px;
-    height: 200px;
-    margin: 10px 45px 5px 45px;
+    width: 120px;
+    height: 150px;
+    margin: 5px 40px;
 }
 
 .card small {
@@ -386,11 +388,11 @@ footer #footer-head {
     border: none;
     outline: none;
     color: white;
-    font-size: 18px;
+    font-size: 16px;
     transition: 0.3s;
     font-family: arial;
+    padding: 10px 15px;
     background-color: #252525;
-    padding: 20px 30px 20px 10px;
 }
 
 .search-box input:hover {
@@ -410,11 +412,11 @@ footer #footer-head {
     border: none;
     outline: none;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 16px;
     color: #c4c1c1;
     margin: 0px 10px;
     transition: 0.3s;
-    padding: 20px 30px;
+    padding: 10px 20px;
     background-color: #252525;
 }
 
